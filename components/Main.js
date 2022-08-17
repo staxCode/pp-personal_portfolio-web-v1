@@ -9,12 +9,12 @@ const Main = () => (
             <ul className="flex flex-wrap justify-center -mb-px text-sm font-medium" id="myTab" data-tabs-toggle="#infoTab" role="tablist">
                 <li className="mr-2" role="presentation">
                     <button className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="project-tab" data-tabs-target="#project" type="button" role="tab" aria-controls="project" aria-selected="false">
-                        <i class="ri-shield-star-line"></i> Projects
+                        <i className="ri-shield-star-line"></i> Projects
                     </button>
                 </li>
                 <li className="mr-2" role="presentation">
                     <button className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" id="skill-tab" data-tabs-target="#skill" type="button" role="tab" aria-controls="skill" aria-selected="true">
-                        <i class="ri-user-smile-line"></i> Skills
+                        <i className="ri-user-smile-line"></i> Skills
                     </button>
                 </li>
             </ul>
@@ -58,7 +58,7 @@ const Main = () => (
                     {
                         skills.map((skill, index) => (
                             <li key={index} className="relative px-6 ">
-                                <div class="flex items-center">
+                                <div className="flex items-center">
                                     <div className="flex justify-center items-center w-6 h-6 mr-2 dark:mr-4 bg-indigo-200 rounded-full ring-0 ring-white dark:bg-indigo-900 sm:ring-8 dark:ring-gray-900 shrink-0">
                                          <i className="ri-stack-line text-indigo-600 dark:text-indigo-300"></i>
                                     </div>
