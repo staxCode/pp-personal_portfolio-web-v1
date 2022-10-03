@@ -1,6 +1,6 @@
 const infoPortfolio = {
     name: 'Axcel Anchante',
-    image: 'profileUserSecond.png',
+    image: 'profile.png',
     carrer: 'Backend developer',
     social: [
         {
@@ -48,7 +48,7 @@ const projects = [
     {
         name: 'Github Profile Finder',
         description: 'It is an interactive search engine on github users that allows access to various information about the search.',
-        image: 'project-github-search.png',
+        image: './p-githubsearch.png',
         repo: 'https://github.com/RunawayAnt/github-user-search-api.git',
         web: 'https://codax-github-search-users.netlify.app/'
     }
