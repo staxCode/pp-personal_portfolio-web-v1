@@ -1,4 +1,3 @@
-// import 'flowbite/dist/flowbite'
 import 'remixicon/fonts/remixicon.css'
 import '../styles/globals.css'
 import Script from 'next/script'

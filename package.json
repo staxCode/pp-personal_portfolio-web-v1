@@ -10,17 +10,19 @@
   },
   "dependencies": {
     "flowbite": "^1.5.2",
-    "next": "12.2.5",
+    "next": "^13.1.1",
     "next-themes": "^0.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-particles": "^2.7.1",
+    "react-tsparticles": "^2.7.1",
     "remixicon": "^2.5.0",
-    "scrollreveal": "^4.0.9"
+    "tsparticles": "^2.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.5",
+    "eslint-config-next": "^13.1.1",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }
