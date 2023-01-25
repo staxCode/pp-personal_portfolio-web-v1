@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { projects, skills } from "../data/info-portfolio";
+import {skills } from "../data/info-portfolio";
 import Projects from "./Projects";
 
 const Main = () => (

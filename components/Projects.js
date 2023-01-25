@@ -31,11 +31,11 @@ const Projects = () => {
             target="_blank"
             className="group flex justify-center text-center relative overflow-hidden rounded-t-lg cursor-pointer"
           >
-            <img
+            {/* <img
               src={project.link_Image}
               alt=""
               className="rounded-t-lg object-cover ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125"
-            />
+            /> */}
             <div className="absolute bg-indigo-600 w-full h-full opacity-20 transition-opacity duration-500 group-hover:opacity-30" />
           </Link>
           <div className="p-5">
