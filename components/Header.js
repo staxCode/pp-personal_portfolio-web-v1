@@ -4,7 +4,7 @@ import { infoPortfolio } from "../data/info-portfolio";
 
 const Header = () => {
   const user = infoPortfolio;
-
+  
   return (
     //<div className="w-full dark:bg-gray-800 ease-in duration-300">
     <div className="w-full ease-in duration-300 mb-4">

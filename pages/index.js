@@ -1,3 +1,5 @@
+import Fetch from "../components/Fetch";
+
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
@@ -17,7 +19,6 @@ export default function Home() {
         {/*Main- projects & skills*/}
         <Main />
         {/*Footer */}
-        
       </div>
     </div>
   );
