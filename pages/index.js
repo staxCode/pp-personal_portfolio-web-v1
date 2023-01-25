@@ -1,5 +1,3 @@
-import Fetch from "../components/Fetch";
-
 import Header from "../components/Header";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
