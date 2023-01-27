@@ -3,9 +3,8 @@ const nextConfig = {
   images: {
     // remotePatterns:[
     //   {
-    //     protocol: '',
-    //     hostname: '',
-    //     port: '',
+    //     protocol: 'https',
+    //     hostname: 'api-portfolio-stxcd.up.railway.app',
     //     pathname: '/api/v1/projects/public/**'
     //   }
     // ]

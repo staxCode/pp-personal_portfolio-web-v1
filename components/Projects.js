@@ -35,8 +35,8 @@ const Projects = () => {
             <Image
               className="rounded-t-lg object-cover ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125"
               src={project.link_Image}
-              width={250}
-              height={130}
+              width={450}
+              height={250}
               alt=""
             />
             <div className="absolute bg-indigo-600 w-full h-full opacity-20 transition-opacity duration-500 group-hover:opacity-30" />
