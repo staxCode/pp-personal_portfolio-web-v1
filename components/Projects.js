@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import swr from "swr";
 import { fetcher } from "../helpers/fetch";
@@ -31,11 +32,13 @@ const Projects = () => {
             target="_blank"
             className="group flex justify-center text-center relative overflow-hidden rounded-t-lg cursor-pointer"
           >
-            {/* <img
-              src={project.link_Image}
-              alt=""
+            <Image
               className="rounded-t-lg object-cover ease-in-out duration-500 group-hover:rotate-6 group-hover:scale-125"
-            /> */}
+              src={project.link_Image}
+              width={250}
+              height={130}
+              alt=""
+            />
             <div className="absolute bg-indigo-600 w-full h-full opacity-20 transition-opacity duration-500 group-hover:opacity-30" />
           </Link>
           <div className="p-5">
