@@ -2,7 +2,7 @@ const particlesConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#171717",
+      value: "#111827",
     },
     image: "",
     position: "",
@@ -376,7 +376,7 @@ const particlesConfig = {
       },
       value: {
         min: 1,
-        max: 3,
+        max: 2,
       },
       animation: {
         count: 0,

@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "name": "Axcel Anchante",
+    "image": "/profile.png",
+    "area": "Backend Developer",
+    "cv": "/cv.pdf",
+    "social": {
+      "email": "mailto:as.anchant00271@outlook.com.pe",
+      "github": "https://github.com/staxCode",
+      "linkedin": "https://www.linkedin.com/in/axcel-anchante-6280611a5",
+      "hackerrank": "https://www.hackerrank.com/stax_code",
+      "extra": "https://codesandbox.io/u/RunawayAnt"
+    }
+  },
+  "skills": [
+    {
+      "area": "Backend",
+      "forks": [
+        {
+          "label": "Languages",
+          "list": [
+            {
+              "name": "NodeJS/Javascript",
+              "level": "Advanced"
+            },
+            {
+              "name": "PHP",
+              "level": "Basic"
+            },
+            {
+              "name": "Bash",
+              "level": "Basic"
+            },
+            {
+              "name": "SQL",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Randass generator password",
+      "description": "...",
+      "imageUrl": "",
+      "web": "",
+      "repository": "",
+      "tags": ["NodeJS", "Tailwind CSS"]
+    },
+    {
+      "title": "Randass generator password",
+      "description": "...",
+      "imagePath": "",
+      "web": "",
+      "repository": "",
+      "tags": ["NodeJS", "Tailwind CSS"]
+    }
+  ]
+}
