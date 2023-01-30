@@ -3,7 +3,7 @@
     "name": "Axcel Anchante",
     "image": "/profile.png",
     "area": "Backend Developer",
-    "cv": "/cv.pdf",
+    "cv": "CV-AxcelAnchante.pdf",
     "social": {
       "email": "mailto:as.anchant00271@outlook.com.pe",
       "github": "https://github.com/staxCode",
@@ -72,8 +72,8 @@
       "title": "Randass Generator Password",
       "description": "Web application to customize passwords, reducing the time to spend hours thinking about one.",
       "imageUrl": "/p-randass.png",
-      "web": "",
-      "repository": "",
+      "web": "https://randass-generator.netlify.app/",
+      "repository": "https://github.com/staxCode/pass-generator",
       "tags": ["NodeJS", "Tailwind CSS"]
     }
   ]

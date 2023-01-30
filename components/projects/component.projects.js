@@ -24,12 +24,26 @@ const Projects = ({ data }) => {
             <div className="absolute bg-indigo-600 w-full h-full opacity-20 transition-opacity duration-500 group-hover:opacity-30" />
           </Link>
           <div className="p-5">
-            <Link href="#">
+            <Link href={project.web}>
               <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 {project.title}
               </h5>
             </Link>
-            <p className="mb-3 text-sm font-normal text-neutral-700 dark:text-gray-400">
+            <div className="my-4">
+              <p className="text-xs font-normal text-neutral-700 dark:text-gray-400">
+                Tags: &nbsp;
+                {project.tags.map((tag, index) => (
+                  <kbd
+                    key={index}
+                    className="mx-1 px-2 py-1.5 text-xs font-semibold text-gray-500 bg-gray-200 border border-gray-200 rounded-lg dark:bg-gray-600 dark:text-gray-300 dark:border-gray-600"
+                  >
+                    <i class="ri-price-tag-3-line mr-1.5"></i>
+                    {tag}
+                  </kbd>
+                ))}
+              </p>
+            </div>
+            <p className="mb-4 text-sm font-normal text-neutral-700 dark:text-gray-400">
               {project.description}
             </p>
             <Link

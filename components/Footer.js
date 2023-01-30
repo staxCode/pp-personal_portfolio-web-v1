@@ -7,7 +7,7 @@ const Footer = () => {
         <a href="https://github.com/staxCode" className="mx-1 hover:underline font-semibold">
           @staxCode.
         </a>
-         <i class="ri-ghost-smile-line ri-lg self-center"></i>
+         <i className="ri-ghost-smile-line ri-lg self-center"></i>
       </span>
     </footer>
   );
