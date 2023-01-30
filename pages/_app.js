@@ -6,7 +6,7 @@ import { ThemeProvider } from "next-themes";
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
-      <Script src="https://unpkg.com/flowbite@latest/dist/flowbite.js" />
+      {/* <Script src="flowbite/dist/flowbite.min.js" /> */}
       <Component {...pageProps} />
     </ThemeProvider>
   );

@@ -14,26 +14,53 @@
   },
   "skills": [
     {
-      "area": "Backend",
+      "area": "Frameworks",
       "forks": [
         {
-          "label": "Languages",
+          "label": "Backend",
           "list": [
             {
-              "name": "NodeJS/Javascript",
+              "name": "Express JS",
               "level": "Advanced"
             },
+            {
+              "name":"Laravel",
+              "level":"Basic"
+            }
+          ]
+        },
+        {
+          "label": "Frontend",
+          "list": [
+            {
+              "name": "Svelte",
+              "level": "Intermediate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "area": "Languages",
+      "forks": [
+        {
+          "label": "",
+          "list": [
             {
               "name": "PHP",
               "level": "Basic"
             },
             {
-              "name": "Bash",
-              "level": "Basic"
+              "name": "Javascript",
+              "level": "Advanced"
             },
             {
               "name": "SQL",
               "level": "Intermediate"
+            },
+            {
+              "name": "Java",
+              "level": "Basic"
             }
           ]
         }
@@ -42,17 +69,9 @@
   ],
   "projects": [
     {
-      "title": "Randass generator password",
-      "description": "...",
-      "imageUrl": "",
-      "web": "",
-      "repository": "",
-      "tags": ["NodeJS", "Tailwind CSS"]
-    },
-    {
-      "title": "Randass generator password",
-      "description": "...",
-      "imagePath": "",
+      "title": "Randass Generator Password",
+      "description": "Web application to customize passwords, reducing the time to spend hours thinking about one.",
+      "imageUrl": "/p-randass.png",
       "web": "",
       "repository": "",
       "tags": ["NodeJS", "Tailwind CSS"]
